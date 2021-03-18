@@ -17,7 +17,7 @@ permalink: /categories/
 {% for category in sortedCategories %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 
-<h3 style="padding-top: 10px;" id="#{{ category_name | slugize }}" class="category-head">{{ category_name | capitalize}}</h3>
+<h3 style="padding-top: 10px;" id="{{ category_name | slugize }}" class="category-head">{{ category_name | capitalize}}</h3>
 
 {% assign sortedPost = site.categories[category_name] | sort %}
   
