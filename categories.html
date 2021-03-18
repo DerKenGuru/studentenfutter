@@ -6,7 +6,7 @@ permalink: /categories/
 
 {% assign sortedCategories = site.categories | sort %}
 {% for category in sortedCategories %}
-<a class="badge badge-success" href="/categories/#{{ category_name }}">
+<a class="badge badge-success" href="/categories/#{{ category[0] }}">
   #{{ category[0] }}
 </a>
 {% endfor %}
