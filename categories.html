@@ -1,0 +1,29 @@
+---
+layout: default
+headerTitle: Categories
+permalink: /categories/
+---
+
+{% assign sortedCategories = site.categories | sort %}
+{% for category in sortedCategories %}
+<a class="badge badge-success" href="/categories/#{{ category_name }}">
+  #{{ category[0] }}
+</a>
+{% endfor %}
+
+
+{% assign sortedCategories = site.categories | sort %}
+
+{% for category in sortedCategories %}
+{% capture category_name %}{{ category | first }}{% endcapture %}
+
+<h3 style="padding-top: 10px;" id="#{{ category_name | slugize }}" class="category-head">{{ category_name | capitalize}}</h3>
+
+{% assign sortedPost = site.categories[category_name] | sort %}
+  
+  {% for post in sortedPost %}
+  <article class="archive-item">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+  </article>
+  {% endfor %}
+{% endfor %}

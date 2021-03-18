@@ -1,0 +1,19 @@
+# collections:
+#   authors:
+#     output: true
+
+# collections:
+#   categories:
+#     output: true
+  
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      headerTitle: "Rezepte"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

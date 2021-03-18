@@ -1,0 +1,35 @@
+---
+layout: default
+my_number: 5
+headerTitle: Studentenfutter
+---
+
+
+<div class="container">
+  <h1>Latest Posts</h1>
+  {% for post in site.posts %}
+  <div class="card mb-3" style="max-width: 1080px;">
+    <div class="row no-gutters">
+      <div class="col-md-3">
+        <a href="{{ post.url }}">
+        <img src="{{ post.image }}" class="card-img" alt="{{ post.title }}-IMAGE">
+        </a>
+      </div>
+      <div class="col-md-9">
+        <div class="card-body">
+          <a href="{{ post.url }}">
+            <h5 class="card-title">{{ post.title }}</h5>
+          </a>
+          <p class="card-text">
+              {% for category in post.categories %}
+              <a class="badge badge-success" href="/categories/#{{category|slugize}}">{{category}}</a>
+              {% unless forloop.last %}&nbsp;{% endunless %}
+              {% endfor %}
+          </p>
+          <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
