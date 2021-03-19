@@ -1,4 +1,4 @@
-baseurl: "/studentenfutter"
+baseurl: "" #/studentenfutter
 defaults:
   - scope:
       path: ""
