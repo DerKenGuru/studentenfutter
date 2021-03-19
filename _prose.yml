@@ -28,15 +28,17 @@ prose:
         field:
           element: "text"
           value: "Titel"
-      - name: "title"
+      - name: "image"
         field:
           element: "text"
-          value: "Titel"
+          label: "Bild Link"
+          value: "/assets/images/image.jpg"
       - name: "categories"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
+          alterable: true
           options:
             - name: "Vegetarisch"
               value: "vegetarisch"
