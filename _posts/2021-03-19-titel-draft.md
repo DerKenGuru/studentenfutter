@@ -1,6 +1,6 @@
 ---
 layout: default
-image: /assets/images/image.jpg
+image: assets/images/charles-deluvio-0v_1TPz1uXw-unsplash.jpg
 published: true
 title: Titel Draft
 categories:
