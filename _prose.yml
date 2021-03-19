@@ -9,6 +9,15 @@ prose:
     - /_layouts
     - /_includes
     - /_data
+    - .jekyll-cache
+    - _sass
+    - _site
+    - Gemfile
+    - Gemfile.lock
+    - prose.yml
+    - categories.html
+    - docker-compose.yml
+    - index.html
   metadata:
     _posts:
       - name: "layout"
