@@ -19,10 +19,12 @@ prose:
         label: "Titel"
         value: ""
       - name: "categories"
-        label: "Kategorie hinzufügen"
-        placeholder: "Kategorie auswählen"
-        ootions:
-          - name: "Schnell"
-            value: "schnell"
-          - name: "Vegetarisch"
-            value: "vegetarisch"
+        field:
+          elemet: "multiselect"
+          label: "Kategorie hinzufügen"
+          placeholder: "Kategorie auswählen"
+          options:
+            - name: "Schnell"
+              value: "schnell"
+            - name: "Vegetarisch"
+              value: "vegetarisch"
