@@ -1,7 +1,7 @@
 ---
 layout: default
 image: assets/images//ch02f011.jpg
-published: false
+published: true
 title: Gemüsesuppe
 categories:
   - schnell
