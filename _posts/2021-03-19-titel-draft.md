@@ -1,7 +1,7 @@
 ---
 layout: default
 image: /assets/images/image.jpg
-published: false
+published: true
 title: Titel Draft
 categories:
   - vegetarisch
