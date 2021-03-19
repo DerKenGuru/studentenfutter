@@ -1,6 +1,6 @@
 ---
 layout: default
-image: /assets/images/image.jpg
+image: /assets/images/default.jpg
 published: true
 title: Erster Salat Post
 categories:
