@@ -14,7 +14,7 @@ prose:
     - _site
     - Gemfile
     - Gemfile.lock
-    - prose.yml
+    - _prose.yml
     - categories.html
     - docker-compose.yml
     - index.html
