@@ -15,16 +15,13 @@ prose:
         field:
           element: "hidden"
           value: "default"
-      - name: "title"
-        label: "Titel"
-        value: ""
       - name: "categories"
         field:
-          elemet: "multiselect"
-          label: "Kategorie hinzufügen"
-          placeholder: "Kategorie auswählen"
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
           options:
-            - name: "Schnell"
-              value: "schnell"
-            - name: "Vegetarisch"
-              value: "vegetarisch"
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
