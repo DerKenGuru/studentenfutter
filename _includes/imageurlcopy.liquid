@@ -1,0 +1,5 @@
+{% if {{imageUrl | slice: 0, 2}} == "http" %}
+{{ imageUrl }}
+{% else %}
+{{ site.baseurl | append: imageUrl }}
+{% endif %}

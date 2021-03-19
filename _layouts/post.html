@@ -20,7 +20,10 @@ layout: default
 </p>
 
 {% if page.image  %}
-<img src="{{ page.image }}" class="img-fluid" alt="Responsive image">
+
+{% assign imageUrl = page.image %}
+<img src="{% include imageurl.liquid %}" class="img-fluid" alt="Responsive image">
+
 {% endif %}
 
 {{ content }}

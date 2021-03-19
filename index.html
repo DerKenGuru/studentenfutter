@@ -10,18 +10,21 @@ headerTitle: Studentenfutter
   <div class="card mb-3" style="max-width: 1080px;">
     <div class="row no-gutters">
       <div class="col-md-3">
-        <a href="{{ post.url }}">
-        <img src="{{ post.image }}" class="card-img" alt="{{ post.title }}-IMAGE">
+        <a href="{{site.baseurl}}{{ post.url }}">
+
+        {% assign imageUrl = post.image %}
+        <img src="{% include imageurl.liquid %}" class="card-img" alt="{{ post.title }}-IMAGE">
+        
         </a>
       </div>
       <div class="col-md-9">
         <div class="card-body">
-          <a href="{{ post.url }}">
+          <a href="{{site.baseurl}}{{ post.url }}">
             <h5 class="card-title">{{ post.title }}</h5>
           </a>
           <p class="card-text">
               {% for category in post.categories %}
-              <a class="badge badge-success" href="/categories/#{{category|slugize}}">{{category}}</a>
+              <a class="badge badge-success" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
               {% unless forloop.last %}&nbsp;{% endunless %}
               {% endfor %}
           </p>

@@ -1,0 +1,6 @@
+{% assign sortedCategories = site.categories | sort %}
+{% for category in sortedCategories %}
+<a class="badge badge-success" href="{{site.baseurl}}/categories/#{{ category[0] }}">
+  #{{ category[0] }}
+</a>
+{% endfor %}
