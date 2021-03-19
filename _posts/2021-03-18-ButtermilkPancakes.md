@@ -1,8 +1,9 @@
 ---
-author: Jonathan
 title: Fluffy Buttermilk Pancakes
-categories: ["schnell", "süß"]
-image: http://placeimg.com/640/480/animals
+categories:
+  - schnell
+  - süß
+image: https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGFuY2FrZXN8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60
 ---
 
 ## Zutaten:
