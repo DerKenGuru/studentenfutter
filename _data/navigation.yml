@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Categories
+- name: Kategorien
   link: /categories/  
-- name: About
+- name: Über uns
   link: /about.html
