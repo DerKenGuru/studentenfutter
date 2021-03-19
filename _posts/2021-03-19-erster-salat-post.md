@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 image: /assets/images/default.jpg
 published: true
 title: Erster Salat Post
