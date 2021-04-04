@@ -1,7 +1,7 @@
 ---
 layout: post
 image: /assets/images/default.jpg
-published: false
+published: true
 title: Bisquitte-Kuchen (Mama's Rezept)
 categories:
   - süß
@@ -26,4 +26,3 @@ categories:
 4. Messerspitze Backpulver zum Mehl geben
 5. Mehl mit Eigelb-Gemisch verkneten und zum Schluss Eischnee unterheben
 6. ca. 50 Min bei 175°C Ober-/Unterhitze backen
-
