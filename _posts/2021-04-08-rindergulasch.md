@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/images/default.jpg
+image: /uploads/gulasch.jpg
 published: true
 title: Rindergulasch
 categories:
