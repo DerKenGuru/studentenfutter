@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /uploads/kuchen-ersatzbild-min.jpg
+image: /uploads/kuchen-icon-orange.png
 published: true
 title: Bananensplittorte
 categories:
