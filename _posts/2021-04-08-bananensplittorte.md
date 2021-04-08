@@ -29,9 +29,9 @@ Creme:
 ## **Zeit**
 
 * Arbeitszeit: 30 Min.
-* Ruhezeit: -
+* Ruhezeit: 60 Min.
 * Koch-/Backzeit: 50Min.
-* **Gesamt: XX Min.**
+* **Gesamt: 2 h**
 
 ## **Zubereitung**
 
