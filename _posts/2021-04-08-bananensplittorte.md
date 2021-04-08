@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/images/default.jpg
+image: /uploads/kuchen-ersatzbild-min.jpg
 published: true
 title: Bananensplittorte
 categories:
@@ -38,7 +38,7 @@ Creme:
 Bisquitte-Boden:
 
 1. Eier trennen, Zucker mit 1-2 EL lauwarmes Wasser und Eigelb verühren bis Masse cremig ist
-2. Messerspitze Backpulver zum Mehl geben --&gt; Mehl mit Eigelb-Gemisch verkneten
+2. Messerspitze Backpulver zum Mehl geben –&gt; Mehl mit Eigelb-Gemisch verkneten
 3. Eiweiss zu Eischnee schlagen, evtl. mit einem Tropfen Essig und unter die Masse heben
 4. ca. 50 Min bei 175&deg;C Ober-/Unterhitze backen
 
