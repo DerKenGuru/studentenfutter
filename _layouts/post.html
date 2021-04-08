@@ -15,14 +15,14 @@ layout: default
   {% endfor %}
 </div>
 
-<p>
-{{ page.date | date_to_string }} - {{page.author}}
+<p class="text-secondary" style="padding-top: 0.5em;">
+{{ page.date | date_to_string }}
 </p>
 
 {% if page.image  %}
 
 {% assign imageUrl = page.image %}
-<img src="{% include imageurl.liquid %}" class="img-fluid" alt="Responsive image">
+<img style="padding-bottom: 1em; max-height: 35vh; object-fit: cover;" src="{% include imageurl.liquid %}" class="img-fluid float-md-right" alt="Responsive image">
 
 {% endif %}
 
