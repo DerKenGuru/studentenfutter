@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /
+image: /uploads/kuchen-icon.svg
 published: true
 title: Bisquitte-Kuchen
 categories:
