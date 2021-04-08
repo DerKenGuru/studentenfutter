@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/images/default.jpg
+image: /
 published: true
 title: Bisquitte-Kuchen
 categories:
