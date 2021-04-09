@@ -32,7 +32,7 @@ prose:
         field:
           element: "text"
           label: "Bild Link"
-          value: "/assets/images/default.jpg"
+          value: "/assets/images/default.png"
       - name: "categories"
         field:
           element: "multiselect"

@@ -6,6 +6,7 @@ defaults:
     values:
       layout: "post"
       headerTitle: "Rezepte"
+      image: "/assets/images/default.png"
   - scope:
       path: ""
     values:
