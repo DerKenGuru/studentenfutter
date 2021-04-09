@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /Snacks-min.png
+image: /assets/images/Snacks-min.png
 published: true
 title: Stockbrot
 categories:
