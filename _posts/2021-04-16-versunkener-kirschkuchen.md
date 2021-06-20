@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/images/Kuchen-min.png
+image: /assets/images/Versunkener_Kirschkuchen.jpeg
 published: true
 title: Versunkener Kirschkuchen
 categories:
