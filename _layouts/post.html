@@ -22,7 +22,7 @@ layout: default
 {% if page.image  %}
 
 {% assign imageUrl = page.image %}
-<img style="padding-bottom: 1em; max-height: 35vh; object-fit: cover;" src="{% include imageurl.liquid %}" class="img-fluid float-md-right" alt="Responsive image">
+<img style="padding-bottom: 1em; max-height: 35vh; object-fit: cover;" src="{{site.baseurl}}{% include imageurl.liquid %}" class="img-fluid float-md-right" alt="Responsive image">
 
 {% endif %}
 

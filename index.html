@@ -13,7 +13,7 @@ headerTitle: Studentenfutter
         <a href="{{site.baseurl}}{{ post.url }}">
 
         {% assign imageUrl = post.image %}
-        <img src="{% include imageurl.liquid %}" class="card-img" alt="{{ post.title }}-IMAGE">
+        <img src="{{site.baseurl}}{% include imageurl.liquid %}" class="card-img" alt="{{ post.title }}-IMAGE">
         
         </a>
       </div>
